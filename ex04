@@ -1,0 +1,8 @@
+try:
+    entrada = int(input("Insira um numero"))
+    if isinstance(entrada,int):
+        print(f"A variavel é um inteiro de valor {entrada}")
+    else:
+        raise TypeError("A variavel não é um numero")
+except:
+    print("Erro")
